@@ -29,8 +29,8 @@ jobs:
       - name: Setup
         run: make setup
        # Runs a single command using the runners shell
-      - name: Start
-        run: make start
+#       - name: Start
+#         run: make start
       #
       - name: Lint
         run: make lint
